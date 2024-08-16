@@ -13,6 +13,8 @@ public class WxConfigOperator {
     @Autowired
     private WxConfigProperties wxConfigProperties;
 
+    private String a;
+
     @Bean
     public WxMaService wxMaService() {
 
